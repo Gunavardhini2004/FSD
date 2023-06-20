@@ -1,0 +1,9 @@
+<!DOCTYPE html>=tells the document type 
+<html>=root element
+<head>=contains the header information
+<title>title of the pages</titlr>
+</head>
+<body>=holds the cocntent of the page
+tags relalated to layout and formatting
+</body>
+</html>

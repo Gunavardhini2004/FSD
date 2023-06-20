@@ -1,0 +1,30 @@
+CSS:cascading style sheet
+SRUCTURE OF CSS:
+consists of a selector and a declaration block
+h1=selector  {color:blue;font-size:12px;}
+3 types of css:
+inline css
+external css
+internal css
+
+INLINE CSS:
+you can write inside the html elements
+SYNTAX:
+<p style="color:red">/p>
+
+
+EXTERNAL CSS:
+ned to write css in .css files which we need to create file and impor that file into current html file
+SYNTAX:
+<head>
+<link rel="stylesheet" type="text/css"href="sample.css">
+</head>
+
+
+INTERNAL CSS:
+need to wrote in between style tags inisde head element
+SYNTAX:
+<HEAD>
+<STYLEP:{COLOR:RED}
+</STYLE>
+</HEAD>

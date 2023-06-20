@@ -1,0 +1,121 @@
+<!DOCTYPE html>=tells the document type 
+<html>=root element
+<head>=contains the header information
+<title>title of the pages</titlr>
+</head>
+<body>=holds the content of the page
+tags relalated to layout and formatting
+</body>
+</html>
+
+BASIC HTML TAGS:
+H1-H6
+Image
+vidoe
+A
+Div
+Form
+Span
+List
+Button
+Meta
+Table
+
+
+H1-H6 TAGS:
+the <h1>to <h6>tags are used to define HTML headings
+HELLO------------>first leevl heading(h1)
+hello-------->second level heading(h2)
+hello------->thrid level heading(h3)
+hello------>fourth level heading(h4)
+hello----->fifth level heading(h5)
+hello--->sixt level heading(h6)
+decreased the size depending on levels of the tag
+
+IMAGE TAG:
+<img>used to embed an image in an HTML page
+<img> has two required attributes
+src and alt
+SYNTAX:
+<img src="img_girl.jpg"alt="Alt Text"idth="500"height="600">
+
+
+
+VIDEO TAG:
+used to embed video content a document,such as movie clip or other video streams.
+it contains one or more <source>tags with different vidoe sources
+SYNTAX:
+<vidoe width="320"height="240"controls>
+<source src="movie.mp4"type="vidoe/mp4">
+<source src="movie.ogg"type="vidoe/mp4">
+your briwser doesnot support the vidoe tag
+</video>
+
+
+A TAG:
+<a> defines a hyperlink,used to link one page to anothr link.
+important atttribute is <a> i the "href" attribute,whicj indicates the link description
+SYNTAX:
+<a href="https://www.w3schools.com">visit W3Schools.com!</a>
+
+
+
+DIV TAG:
+<div> defines a divison or a section in a html doc
+used as container fir html elements which are stylec with CSS OR Manipulated with javascript
+it is eaisly styled by using the class or id attribute
+SYNTAX:
+<div class="myDiv">
+<h2>this is heading in a div eleemnt</h2>
+<p>  this is soe text in a div eleent</p>
+</div>
+
+
+
+SPAN TAG:
+it is an inline container used to mark up a part of a text or part of a document
+easily styked bt css or manu]ipulated with javascriot using class o id attribure
+SYNTAX:
+<p.My mother has <span style="color:blue:>blue</span>eyes.</p>
+OUTPUT:my mother has blue eyes.
+
+
+
+LIST TAG:
+html lists allow web developers to grpup  SET OF RELATED ITMES IN LISTS
+unordered list
+ordered list
+description list
+UNORDERED LIST:
+<ul>
+<li>coffee</li>         cooffe
+<li>tea</li>             tea
+<>i>milk</li>            milk
+</ul.
+ORDERED LISR=OL
+DESCRIPTION LIST:DL
+
+
+
+BUTTON TAG:
+Defines a clickable button
+inside a<button>element we can put tag like(<i>,<b>,<strong>,<br>,<img>,)
+SYNTAX:
+<buttom tpe="button">click me!</button>
+
+
+TABLE TAG:
+defines html table
+consits of one <table> amd one or more <tr>,<th>,and<td> 
+tr=table rows
+th=table header
+td=table cell
+SYNTAX:
+<head>
+
+<meta charset="UTF-8">
+<meta name="description"contenet="free web tutoroals">
+<meta name="keywords"cocntent="HTML,CSS,JAVA SCRIPT">
+<meta name="authtor"cocntent="john deo">
+<meta name="viewpoint"cocntent="width=device-width,initial-scale=1.0">
+</head>

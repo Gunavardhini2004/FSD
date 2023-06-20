@@ -1,0 +1,93 @@
+BOX PLOT, VIOLIN PLOT,PIE,DONUT:
+BOX PLOT:
+import matplotlib.pylot as plt
+%matplotlib inline                                    ADVANTAGES OF BOX PLOTS:
+#Data prep
+total=[20,4,1,30,20,10,20,70,30,10]                    {IQR=inter quantitive range}
+order=[10,3,1,15,17,2,30,44,2,1]                      box plots are divided as 25boxex                                                 
+discount=[30.10,20,5,10,20,50,60,20,45]               used to find avg score of the data
+data=list([total,order,discount])                      they talk about SKEW
+#plotting th data                                      THREE TYPES OF SKEWS:
+plt.boxplot(data,showmenas = true)                     left=negative skew
+plt.title("Box plot")                                  right=positive skew
+plt.grid(true)                                         centered=normalLY distrubuted skew
+plt.show()                                              also shows the disperssion of the data
+
+COMPARING OF BOX PLOTS:
+we compare using medians.
+compare using IQR.
+compare using whisokers= bottom of the box.
+comapre using skew.
+
+VIOLIN PLOT:
+use to distribution of data.
+said to be combination of box plot and density plot.
+consists 3 lines known as density plot.
+represents upper and lower values.
+they have more approximation as copmared to box plot.
+PARTS OF VIOLIN PLOT:
+upper
+median
+density
+iqr
+ LOWERtimit 
+DENSITY=WIDHT=FREQUENCY
+ 
+CODE FOR VIOLIN PLOT:
+import matplotlib.pylot as plt
+%matplotlib inline
+#Data prep
+total=[20,4,1,30,20,10,20,70,30,10]                    
+order=[10,3,1,15,17,2,30,44,2,1]                                                                      
+discount=[30.10,20,5,10,20,50,60,20,45]               
+data=list([total,order,discount])
+#plotting th data
+plt.violinplot(data,showmeans=true,showmedians=true)
+plt.title("Box plot")
+plt.grid(True)
+plt.show()
+
+
+PIE CHART:used for single numeric
+import matplotlib.pylot as plt
+%matplotlib inline
+label=['dog','cat'.'wolf','lion']
+sizes=[50,45,60,80] 
+plt.title(sizes,labels=label,autopct='%1.1f%%shadow=true,startangle=90)
+plt.title("pie chart")
+plt.show()
+
+DONUT CHART: represented as pie chart inside a hole.
+used for multiple numeric.
+2 types of DONUT CHARTS:
+simple 
+exploded.
+import matplotlib.pylot as plt
+%matplotlib inline
+group_names=['Group A','Group B','Group C']
+group_size=[20,30,50]
+size_center=[10]
+a,b,c = [plt.cm.Blues,plt.cm.Reds,plt.cm.Greens]
+pie1=plt.pie(group_size,labels=group_names,radius=1.5,colors=[a(0.5),b(1,5),c(1.0)])
+pie2=plt.pie(size_center,radius=0.3,colors='b')
+plt.show()
+
+
+
+HOW TO CREAREE A AREA CHART:
+import matplotlib.pylot as plt
+%matplotlib inline
+x=range(1,15)
+y=[1,4,6,8,4,5,3,2,4,1,5,6,8,7]
+#creating area plot
+plt.stackplot(x,ycolor='black',alpha=0.5)
+#merge area chart with line chart
+plt.plot(x,ycolor='g')
+plt.grid(True)
+plt.show() 
+        
+
+
+
+
+

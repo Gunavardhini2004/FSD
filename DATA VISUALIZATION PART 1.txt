@@ -1,0 +1,92 @@
+DATA VISUALIZATION:represntation of information in forms of chart pie ans=d graph.
+mataplotlib:low level,provides lots of freedom
+pandas visualization:built on matpolib
+seaborn:great default styles
+ggplot:based on R's ggplot2,uses grammar og graphics
+plotly:can create interactive plots
+
+some other important plots are:bokeh,pygal,geoplotib,gleam,leather
+GG is the grammar of graphics.
+
+
+different tyoes of graphs:
+column bar graph
+3-d bar   graphs
+3-axis bar graphs
+stacked bar graphs
+pictograms
+dot bar graph=identify the error in graoh and used to cgeck linearity trend                      SPYDER PLATFORM
+
+
+some imo graphs are:
+bar graph=numbers
+pie chart=budgets for any organization
+line grph=used in school days and time series
+histogram=is a specific type of a bar chart
+
+
+NUMPY:
+it isa indeepdnet librabry
+
+
+CODE FOR LINE PLOT:
+import numpy as np
+import matplotlib.pylot as pylot               (MATPLOTLIB.3)WEBSITE
+%matplotlib inline
+
+#define a data set
+x=np.arange(010,0.1)
+y=2*x+5
+ 
+
+#plot the data points
+plt.plot(x,y)
+plt.show()
+
+
+
+CODE FOR BARPLOT:
+import numpy as np
+import matplotlib.pylot as pylot
+%matplotlib inline
+
+#define a data set
+data={'apples : 20, 'mangoes' :15,'lemon;:30, 'oranges':10}
+names=list(data.keys())
+values(lisr.data va;ues())
+fig=plt.figire(figsize(10,5))
+plt.bar(names,values)
+plt.show()
+
+
+
+
+
+CODE FOR HISTOGRAM:
+import numpy as np
+import matplotlib.pylot as pylot
+%matplotlib inline
+numbers=[10,12,13,45,23,67,12,45,90,32]
+?plt.hist()
+plt.hist(numbers,bins=[0,20,40,60,80,100], edge color='#fffff',color='#ff2331')
+plt.title("Histogram plot demo")
+plt.xlabel("Rane of vslues")
+plt.ylabel("Frequecies")
+plt.grid(True)
+plt.show()
+
+
+
+
+  
+
+
+types of ggraphs and charts:
+pie chart
+vertical bar chart
+bubble chart
+line fraph
+area graph
+histogram
+
+
